@@ -1,0 +1,173 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #002855;
+  padding: 15px 0;
+  color: white;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fdd835;
+}
+
+/* Hero */
+.form-hero {
+  background: linear-gradient(135deg, #002855, #004080);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.form-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.form-hero p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Form Section */
+.form-section {
+  padding: 40px 20px;
+}
+
+.student-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .form-group input:focus,
+.form-group textarea:focus {
+  border-color: #fdd835;
+  outline: none;
+  box-shadow: 0 0 5px rgba(253, 216, 53, 0.5);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #fdd835, #ffeb3b);
+  color: #002855;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #ffeb3b, #fdd835);
+}
+
+/* Footer */
+.footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar .container,
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .form-hero h1 {
+    font-size: 2rem;
+  }
+
+  .student-form {
+    padding: 20px;
+  }
+}
+
+/* Custom Scrollbar for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f6f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #002855;
+  border-radius: 4px;
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
