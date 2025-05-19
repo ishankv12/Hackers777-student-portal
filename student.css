@@ -96,4 +96,78 @@ body {
   border-radius: 6px;
   font-size: 1rem;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .form-group input:focus,
+.form-group textarea:focus {
+  border-color: #fdd835;
+  outline: none;
+  box-shadow: 0 0 5px rgba(253, 216, 53, 0.5);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #fdd835, #ffeb3b);
+  color: #002855;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #ffeb3b, #fdd835);
+}
+
+/* Footer */
+.footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar .container,
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .form-hero h1 {
+    font-size: 2rem;
+  }
+
+  .student-form {
+    padding: 20px;
+  }
+}
+
+/* Custom Scrollbar for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f6f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #002855;
+  border-radius: 4px;
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
 }
