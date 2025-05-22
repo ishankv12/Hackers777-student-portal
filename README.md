@@ -50,5 +50,6 @@ This student portal project is proudly developed and maintained by:
 
 Special thanks to:
 
+* Dr.Monit Kapoor Sir
 * All students and mentors providing feedback and support!
 * Open-source contributors and web dev communities for resources and inspiration.
