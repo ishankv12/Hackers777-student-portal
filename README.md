@@ -34,11 +34,11 @@ All assets and code follow standard web development practices for ease of use an
 To run and modify this project locally:
 
 1. **Clone the Repository:**  
-   `git clone <repository-url>` 📁
+   `git clone https://github.com/ishankv12/Hackers777-student-portal` 📁
 2. **Navigate to Project Directory:**  
-   `cd student-portal`
+   `cd Hackers777-student-portal`
 3. **Launch the Portal:**  
-   Open `index.html` in your browser or use a local server for better results.
+   Open `student.html` in your browser or use a local server for better results.
 
 ## 🧑‍💻 Developed By 🧑‍💻
 
