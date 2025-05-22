@@ -7,15 +7,15 @@
 }
 
 body {
-  background-color: #f4f6f9;
+  background-color: #141414;
   color: #333;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #002855;
+  background-color: black;
   padding: 15px 0;
-  color: white;
+  color: red;
 }
 
 .navbar .container {
