@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black; /* Netflix dark background color */
+    background-color: #141414; /* Netflix dark background color */
     color: #e5e5e5; /* Light gray/white text for contrast */
     line-height: 1.6;
 }
